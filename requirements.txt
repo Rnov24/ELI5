@@ -1,0 +1,5 @@
+instructor[google-generativeai, vertexai]
+fastapi[standard]
+python-dotenv
+uvicorn
+redis

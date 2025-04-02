@@ -1,0 +1,26 @@
+# Virtual environments
+.env
+venv/
+
+# Dependencies / Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python bytecode and cache
+*.pyc
+*.pyd
+*.pyo
+__pycache__/
+
+# Logs 
+*.log
+logs/
+
+# Docker
+*.tar
+
+# IDE / OS specific files
+.DS_Store
+.idea/
+.vscode/

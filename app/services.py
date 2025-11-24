@@ -8,7 +8,7 @@ from .models import *
 genai.configure(api_key=GOOGLE_API_KEY)
 client = instructor.from_gemini(
     client=genai.GenerativeModel(
-        model_name="models/learnlm-1.5-pro-experimental", # Updated model name
+        model_name="models/gemini-2.5-flash", # Updated model name
         system_instruction="You are ELIS, a study buddy who helps people learn using the Feynman technique." # Corrected grammar
     )
 )

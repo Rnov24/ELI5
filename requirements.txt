@@ -1,4 +1,5 @@
-instructor[google-generativeai]
+instructor
+google-generativeai
 fastapi[standard]
 python-dotenv
 uvicorn
